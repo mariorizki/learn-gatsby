@@ -12,9 +12,12 @@ const header = ({ siteTitle }) => (
       <Link to="/">Menu 1</Link>
       <Link to="/">Menu 2</Link>
       <Link to="/">Menu 3</Link>
-      <Link to="/">
-        <button>Button</button>
-      </Link>
+      <img
+        className="LightIcon"
+        src={require("../images/sun.svg")}
+        alt=""
+        width="30"
+      />
     </div>
   </div>
 )
