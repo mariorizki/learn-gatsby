@@ -14,7 +14,7 @@
   justify-items: center;
 }
 
-.Header a {
+.Header .header-menu {
   color: white;
   font-weight: 700;
 }
